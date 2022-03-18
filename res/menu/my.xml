@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+    <!-- ITEMS IN THE DROPDOWN OVERFLOW MENU -->
+    <item
+        android:id="@+id/menuitem_title"
+        android:title="Back to Title Screen"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/menuitem_toggle_timer"
+        android:title="Toggle Timer On/Off"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/menuitem_quit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Quit"
+        app:showAsAction="never">
+    </item>
+
+</menu>
